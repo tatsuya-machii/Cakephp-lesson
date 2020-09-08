@@ -1,0 +1,31 @@
+#img_container {
+  border-top: 15px solid #2e3192;
+  border-bottom: 15px solid #2e3192;
+}
+#bg_container {
+  height: 410px;
+  background-image: url("../img/views/main_img.jpg");
+  background-size: cover;
+}
+#bg_container img {
+  width: 100%;
+  height: 100%;
+}
+#btn_wrapper {
+  padding: 7px;
+  display: flex;
+  justify-content: space-between;
+}
+.btn_container p {
+  padding-top: 4px;
+  font-size: 8px;
+}
+.btn_container p.more {
+  font-size: 14px;
+  color: #29aae3;
+}
+#qa_container img{
+  display: block;
+  margin: 20px auto;
+
+}
